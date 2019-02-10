@@ -3,7 +3,8 @@ var WIDTH = 500;
 var HEIGHT = 500;
 var numOfTiles, tileList, score, intervalVar, running, hitCount;
 ctx.font = "bold 30px ZCOOL KuaiLe";
-ctx.fillStyle = "fuchsia";
+ctx.fillStyle = "yellow";
+ctx.fillText("ATARI Breakout", 50, 200);
 ctx.fillText("Click me to start the game", 50, 250);
 
 var ball = {
